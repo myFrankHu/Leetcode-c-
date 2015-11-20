@@ -1,8 +1,8 @@
 ///////////////////////////////////////////////////////////
 // Author:    Zhongze Hu
 // Subject:   Leetcode_cpp
-// Problem:   Binary tree zigzag traversal
-// Algorithm: level order traversal
+// Problem:   Construct binary tree from inorder and preorder traversal
+// Algorithm: Tree traversal
 // Data:      11/20/2015
 ///////////////////////////////////////////////////////////
 
