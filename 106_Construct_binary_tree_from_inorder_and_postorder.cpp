@@ -34,18 +34,3 @@ public:
         return root;
     }
 };
-
-int main()
-{
-	vector<int> preorder;
-	preorder.push_back(1);
-	preorder.push_back(3);
-	preorder.push_back(2);
-	vector<int> inorder;
-	inorder.push_back(3);
-	inorder.push_back(2);
-	inorder.push_back(1);
-	Solution sol;
-	TreeNode* ans = sol.buildTree(preorder,inorder);
-	return 0;
-}

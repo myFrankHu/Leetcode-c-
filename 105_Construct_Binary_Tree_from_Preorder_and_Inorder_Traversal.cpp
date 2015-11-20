@@ -35,24 +35,3 @@ public:
         return build(preorder, inorder,0,preorder.size()-1,0,inorder.size()-1);
     }
 };
-
-int main()
-{
-	vector<int> preorder;
-	preorder.push_back(1);
-	preorder.push_back(2);
-	preorder.push_back(4);
-	preorder.push_back(5);
-	preorder.push_back(3);
-	preorder.push_back(6);
-	vector<int> inorder;
-	inorder.push_back(4);
-	inorder.push_back(2);
-	inorder.push_back(5);
-	inorder.push_back(1);
-	inorder.push_back(3);
-	inorder.push_back(6);
-	Solution sol;
-	TreeNode* ans = sol.buildTree(preorder,inorder);
-	return 0;
-}
